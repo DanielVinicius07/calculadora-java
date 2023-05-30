@@ -1,12 +1,12 @@
 import java.util.Scanner;
 public class Calc {
-    static public void main(String[] args){
-    Scanner scan=new Scanner(System.in);
+    public static void main(String[] args){
+    Scanner scan = new Scanner(System.in);
 
     Numero n1=new Numero();
     Numero n2=new Numero();
     Numero res=new Numero();
-    String opc="S"
+    String opc="S";
 
     while(opc.equals("s") || opc.equals("S"){
     System.out.printf("%nDigite o valor 1:");
