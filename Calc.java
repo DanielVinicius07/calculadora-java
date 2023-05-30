@@ -14,7 +14,7 @@ public class Calc {
     System.out.printf("%nDigite o valor 1:");
     n2.setValor(scan.nextInt());
     res.setValor(n1.getValor() + n2.getValor());
-    System.out.printf("%nA soma de %d é igaul a %d, n1.getValor(),n2.getValor()res.getValor()");
+    System.out.printf("%nA soma de %d é igual a %d, n1.getValor(),n2.getValor()res.getValor()");
     System.out.printf("%nDeseja somar outro valor");
     opc=scan.next();
     System.out.printf("%n%n%n");
